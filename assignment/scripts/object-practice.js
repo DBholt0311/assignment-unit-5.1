@@ -10,6 +10,11 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: 'Daniel',
+  lastName: 'Holt',
+  hasSiblings: true,
+  shoeCount: 5,
+  favFoods: ['Mashed potatoes', 'Stir Fry', 'French toast', ]
 };
 console.log('A little about me:', me);
 
@@ -19,14 +24,16 @@ console.log('A little about me:', me);
     created above to set its value. 
   - Console.log fullName
 */
-
+const fullName = `my name is ${me.firstName} ${me.lastName}`;
+console.log(fullName);
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food 
 */
-
+console.log(me.favFoods[0]);
+console.log(me.favFoods[2]);
 
 
 /* 4. Change a property of an existing object.
